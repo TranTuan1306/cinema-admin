@@ -1,0 +1,75 @@
+.widgetLg {
+  flex: 6;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+
+.widgetLgTitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: coral;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.widgetLgTable {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+.widgetLgTh {
+  text-align: left;
+}
+
+.widgetLgContent {
+  font-size: 16px;
+  width: 300px;
+  background-color: rgb(220, 238, 241);
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.widgetLgUser {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.widgetLgImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.widgetLgLocation {
+  font-size: 16px;
+  font-weight: bold;
+  color: orange;
+}
+
+.widgetLgDate,
+.widgetLgAmount {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(34, 175, 128);
+}
+
+.widgetLgButton {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.widgetLgButton {
+  background-color: lightgray;
+  color: red;
+}
+
+.widgetLgButton:hover {
+  transform: scale(1.4);
+  transition: 1s all;
+}
